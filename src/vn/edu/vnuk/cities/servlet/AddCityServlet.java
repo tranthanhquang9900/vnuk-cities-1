@@ -49,6 +49,13 @@ public class AddCityServlet extends HttpServlet {
 		out.println("<html>");
 		out.println("<body>");
 		out.println("City " + city.getCity() + " successfully added!");
+		
+		out.println("<div>");
+		out.println("<a href = \"http://localhost:8080/vnuk-cities/cities.jsp\">");
+		out.println("Display cities!");
+		out.println("</a>");
+		out.println("</div>");
+		
 		out.println("</body>");
 		out.println("</html>");
 		
